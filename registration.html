@@ -1,0 +1,195 @@
+<html>
+  <head>
+    <title>Registration form</title>
+    <style>
+    .reginform{border:5px ;
+	display:flex;
+      background-color:lightpink;
+      border-radius:40px;
+      margin-left:450px;
+      margin-right:450px;
+      padding:50px;
+	  padding-top:-10px;
+	  
+    }
+  </style>
+    <script
+     type="text/javascript" language="javascript">
+      function valid() {
+       var name = /^[a-zA-Z ]+$/;
+        var numbers = /^[0-9]+$/;
+        var pwd = /^[0-9a-zA-Z@]+$/;
+        var email = /^\w+([\._]?\w+)*@\w+([\._]?\w+)*(\.\w{2,3})+$/;
+
+        if (document.regform.name.value == "") {
+          alert("Enter name");
+          document.regform.name.focus();
+          return false;
+        } else if (!document.regform.name.value.match(name)) {
+          alert("Name should contain only alphabets");
+          document.regform.name.focus();
+          return false;
+        } else if (document.regform.mobno.value == "") {
+          alert("Enter phone number");
+          document.regform.mobno.focus();
+          return false;
+        } else if (!document.regform.mobno.value.match(numbers)) {
+          alert("Phone number should contain numbers only");
+          document.regform.name.focus();
+          return false;
+        } else if (document.regform.mobno.value.length < 10) {
+          alert("Enter a valid Mobile Number");
+          document.regform.mobno.focus();
+          return false;
+        } else if (document.regform.email.value == "") {
+          alert("Enter email");
+          document.regform.email.focus();
+          return false;
+        } else if (!document.regform.email.value.match(email)) {
+          alert("mail id is invalid");
+          document.regform.email.focus();
+          return false;
+        } else if (document.regform.pwd.value == "") {
+          alert("Enter password");
+          document.regform.pwd.focus();
+          return false;
+        } else if (document.regform.pwd.value.length < 6) {
+          alert("password should be minimum 6 characters");
+          document.regform.pwd.focus();
+          return false;
+        } else if (!document.regform.pwd.value.match(pwd)) {
+          alert("only numbers,alphabets and @ are allowed in password");
+          document.regform.pwd.focus();
+          return false;
+        } else if (document.regform.cpwd.value == "") {
+          alert("Enter confirm password");
+          document.regform.cpwd.focus();
+          return false;
+        } else if (document.regform.cpwd.value.length < 6) {
+          alert("Enter cpwd");
+          document.regform.cpwd.focus();
+          return false;
+        } else if (document.regform.pwd.value != document.regform.cpwd.value) {
+          alert("Passwords not matched");
+          document.regform.pwd.focus();
+          return false;
+        } else if (
+          !document.regform.gen[0].checked &&
+          !document.regform.gen[1].checked
+        ) {
+          alert("Choose Gender");
+          document.regform.gen[0].focus();
+          return false;
+        } else if (
+          !document.regform.subjects[0].checked &&
+          !document.regform.subjects[1].checked
+        ) {
+          alert("Choose Subjects");
+          document.regform.subjects[0].focus();
+          return false;
+        } else if (document.regform.branch.selectedIndex == "0") {
+          alert("Select a branch");
+          document.regform.branch.focus();
+          return false;
+        } else if (document.regform.address.value == "") {
+          alert("Enter address");
+          document.regform.address.focus();
+          return false;
+        } else if (document.regform.studentid.value == "") {
+          alert("Upload student id");
+          document.regform.studentid.focus();
+          return false;
+        } else {
+          return true;
+        }
+      }
+    </script>
+  </head>
+  <body style="background-color:lightblue">
+    <h1 align="center">Registration form</h1>
+    <form
+      class="reginform" action="./Reg"
+      onSubmit="return valid();"
+      method="get"
+      name="regform"
+      align="center"
+    >
+	<table align=center>
+	<tr>
+	<td>
+     User Name:
+	 </td>
+	 <td>
+	 <input type="text" name="name"></td>
+</tr>      <br>
+	  <tr>
+	<td>
+    
+      Mobile number:
+	  </td>
+	  <td><input type="number" name="mobno">
+      </td>
+	 </tr> <br>
+	 <tr><td>
+      Email:</td>
+	  <td><input type="text" name="email"></td>
+	  </tr>
+      <br>
+	  <tr><td>
+      Create password:</td><td><input type="password" name="pwd"></td></tr>
+      <br>
+	  <tr>
+	  <td>
+      Confirm password:</td><td><input type="password" name="cpwd">
+	  </td>
+	  </tr>
+      <br>
+	  <tr>
+	  <td>
+      Gender:</td><td> <input type="radio" name="gen" value="Male">Male
+      <br>
+      <input type="radio" name="gen" value="Female">Female</td></tr>
+      <br>
+	  <tr>
+	  <td>
+      Subjects liked:</td>
+	  <td>
+      <input type="checkbox" name="subjects" value="Technical">Technical
+      <br>
+      <input type="checkbox" name="subjects" value="Non Technical">Non
+      Technical</td>
+</tr>
+      <br>
+	  <tr>
+	  <td>
+     Branch:</td>
+     <td> <select name="branch">
+        <option value="0">Select</option>
+        <option value="CSE">CSE</option>
+        <option value="IT">IT</option>
+        <option value="ECE">ECE</option>
+        <option value="EEE">EEE</option>
+        <option value="ME">ME</option>
+        <option value="CE">CE</option>
+      </select></td>
+	  </tr>
+      <br>
+	  <tr>
+	  <td>
+      Address:</td>
+	  <td><textarea rows="5" cols="20" name="address"> </textarea></td></tr>
+      <br>
+<tr>
+<td>
+
+      upload studentid:</td>
+	  <td><input type="file" name="studentid"></td>
+	  </tr>
+      <br>
+<tr>   
+
+     <td> <input type="reset"></td>
+      <td><input type="submit" ></td></tr>
+    </form>
+  </body>
+</html>
