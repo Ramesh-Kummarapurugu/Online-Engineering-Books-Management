@@ -1,0 +1,67 @@
+<html >
+<head>
+    <title>Login form</title>
+ <style>
+   .loginform{border:5px ;
+   background-color: aqua;
+   border-radius:40px;
+   margin-left:450px;
+   margin-right:450px;
+   padding:50px;
+ }
+ </style>
+ <script type="text/javascript" language="javascript">
+        function valid() {
+  var name = /^[a-zA-Z ]+$/;
+  var pwd = /^[0-9a-zA-Z@]+$/;
+  if (document.logform.name.value == "") {
+    alert("Enter name");
+    document.logform.name.focus();
+    return false;
+  } else if (!document.logform.name.value.match(name)) {
+    alert("Name should contain only alphabets");
+    document.logform.name.focus();
+    return false;
+  }
+   else if (document.logform.pwd.value == "") {
+    alert("Enter password");
+    document.logform.pwd.focus();
+    return false;
+  } else if (document.logform.pwd.value.length < 6) {
+    alert("password should be minimum 6 characters");
+    document.logform.pwd.focus();
+    return false;
+  } else if (!document.logform.pwd.value.match(pwd)) {
+    alert("only numbers,alphabets and @ are allowed in password");
+    document.logform.pwd.focus();
+    return false;
+  }
+ else {
+    return true;
+  }
+}
+</script>
+</head>
+<body style="background-color:lightpink">
+    <h1 align=center>Login form</h1>
+    <form class="loginform" action="Log" onSubmit="return valid();"method="get" name="logform" target="_blank" align=center>
+	<table>
+	<tr>
+	<td>
+     User Name:</td>
+	 <td><input type="text" name="name"></td></tr>
+     <br>
+	 <tr>
+	 <td>
+     Create password:
+	 </td><td><input type="password" name="pwd"></td></tr>
+	 
+     <br>
+	 <tr><td>
+     <input type="reset"></td>
+	 <td align=right>
+     <input type="submit"></td></tr>
+	 </table>
+	 </form>
+    </body>
+</html>
