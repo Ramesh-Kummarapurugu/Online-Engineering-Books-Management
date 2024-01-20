@@ -11,39 +11,39 @@ SCREENSHOTS:
 
 Index page
 
-![Alt text](https://nagasatyasaipavirala.github.io/Online-Engineering-Books/Index.png)
+![Alt text](https://github.com/Ramesh-Kummarapurugu/Online-Engineering-Books-Management/assets/102913876/80de08c3-fa7c-40ba-9742-ce19933d7688)
 
 Registration page
 
-![Alt text](https://nagasatyasaipavirala.github.io/Online-Engineering-Books/Registration%20form.png)
+![Alt text](https://github.com/Ramesh-Kummarapurugu/Online-Engineering-Books-Management/assets/102913876/893897be-19a9-4602-88a1-b2ca991f75ba)
 
 Validation
 
-![Alt text](Validation.png)
+![Alt text](https://github.com/Ramesh-Kummarapurugu/Online-Engineering-Books-Management/assets/102913876/b8ab840f-639b-4aaa-94b1-e99cae1247d9)
 
 Registered
 
-![Alt text](Registered.png)
+![Alt text](https://github.com/Ramesh-Kummarapurugu/Online-Engineering-Books-Management/assets/102913876/0bb7b73c-7ed7-41bd-a904-bd5e04cd569e)
 
 Login page
 
-![Alt text](https://nagasatyasaipavirala.github.io/Online-Engineering-Books/Login%20form.png)
+![Alt text](https://github.com/Ramesh-Kummarapurugu/Online-Engineering-Books-Management/assets/102913876/1ae68a93-e750-435d-8e71-256bd87a58c0)
 
 Invalid user
 
-![Alt text](Invalid%20user.png)
+![Alt text](https://github.com/Ramesh-Kummarapurugu/Online-Engineering-Books-Management/assets/102913876/b9384e00-f1c4-470e-9fdd-1e5f8dc859fb)
 
 Granted Access
 
-![Alt text](Granted%20Access.png)
+![Alt text](https://github.com/Ramesh-Kummarapurugu/Online-Engineering-Books-Management/assets/102913876/8858b9ff-a7dd-4608-99f4-11f4a1f59829)
 
 Apache Tomcat webserver
 
-![Alt text](https://nagasatyasaipavirala.github.io/Online-Engineering-Books/Apache%20Tomcat.png)
+![Alt text](https://github.com/Ramesh-Kummarapurugu/Online-Engineering-Books-Management/assets/102913876/e53f1cf0-76e0-4ba3-8a9d-aabf77a95480)
 
 Oracle 10g database
 
-![Alt text](https://nagasatyasaipavirala.github.io/Online-Engineering-Books/Oracle%2010g.png)
+![Alt text](https://github.com/Ramesh-Kummarapurugu/Online-Engineering-Books-Management/assets/102913876/4870ae24-da9d-426c-bd1b-1453594aa651)
 
 Engineering books
 
@@ -84,14 +84,15 @@ Semester 8 :
 
 Aptitude Text Book
 
-![Alt text](Aptitude%20Tb.png)
+![Alt text](https://github.com/Ramesh-Kummarapurugu/Online-Engineering-Books-Management/assets/102913876/2dfdea77-8378-406a-90c8-eb5a06e4ba33)
 
 Engineering Calculator
 
-![Alt text](Engineering%20Calculator.png)
+![Alt text](https://github.com/Ramesh-Kummarapurugu/Online-Engineering-Books-Management/assets/102913876/408274ad-32fc-4151-9e96-fdb592a68128)
 
 Compilers
 
-![Alt text](Compilers.png)
+![Alt text](https://github.com/Ramesh-Kummarapurugu/Online-Engineering-Books-Management/assets/102913876/e899285a-db93-4a4a-aee9-db75310ef5f4)
+
 
 
