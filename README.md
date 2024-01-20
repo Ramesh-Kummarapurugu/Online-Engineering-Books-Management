@@ -49,7 +49,7 @@ Engineering books
 
 Semester 1 :
 
-![Alt text][Screenshot (21)](https://github.com/Ramesh-Kummarapurugu/Online-Engineering-Books-Management/assets/102913876/ab3ec2de-9eb7-4910-b1da-d40f6a716881)
+![Alt text](https://github.com/Ramesh-Kummarapurugu/Online-Engineering-Books-Management/assets/102913876/ab3ec2de-9eb7-4910-b1da-d40f6a716881.png)
 
 Aptitude Text Book
 
