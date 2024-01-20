@@ -1,6 +1,6 @@
 Online Engineering Books
 
-[![Website Badge](https://img.shields.io/badge/Visit-Now-green?style=for-the-badge&logo=vercel)](https://nagasatyasaipavirala.github.io/Online-Engineering-Books/)
+[![Website Badge](https://img.shields.io/badge/Visit-Now-green?style=for-the-badge&logo=vercel)](https://github.com/Ramesh-Kummarapurugu/Online-Engineering-Books-Management/)
 
 
 “Online engineering books (learn to earn)” is an online based web portal which provides free access to all 8 semesters engineering books of all the main engineering streams. The students or the faculties can access this portal and get free access to the books for improving their knowledge.
@@ -85,6 +85,10 @@ Semester 8 :
 Aptitude Text Book
 
 ![Alt text](https://github.com/Ramesh-Kummarapurugu/Online-Engineering-Books-Management/assets/102913876/2dfdea77-8378-406a-90c8-eb5a06e4ba33)
+
+Data Mining Text Book
+
+![Alt text](https://github.com/Ramesh-Kummarapurugu/Online-Engineering-Books-Management/assets/102913876/fa8508d2-39bc-4eb8-a7b6-b307c7f8e350)
 
 Engineering Calculator
 
